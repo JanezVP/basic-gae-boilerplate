@@ -1,0 +1,86 @@
+body {
+    background-color: lightsteelblue;
+}
+h1 {
+   font-family: Verdana, Arial; 
+   font-weight: bold;
+   text-align: center;
+   font-size: 42;
+}
+.iskalnik {
+   	border: 1px solid #000000;
+	float:right;
+	position: fixed;
+	right: 135px;
+	top: 520px;
+	border-radius: 5px;
+	background-color: lightgreen;
+	height: 35px;
+	width: 60px;
+    text-align: center;
+
+}
+h2 {
+    font-family: Verdana, Arial;
+    font-family: cursive;
+    font-size: 42;
+    text-align: center;
+}
+
+.image {
+  border: 1px red solid;
+  padding: 1px;
+  height: 305px;
+  width: 100%;
+}
+
+.slika{
+  border: 1px;
+  padding: 1px;
+  height: 105px;
+  width: 105px;
+  right: 0px;
+}
+button {
+    color: brown;
+    float: right;
+    position: absolute;
+    right: 55px;
+    top: 40px;
+    height: 35px;
+	width: 100px;
+    border-radius: 5px;
+
+}
+strong {font-weight: 600;
+font-family: cursive;}
+
+ol {
+    color: darkblue
+}
+div {
+	height: 50px;
+	width: 103.5px;
+	border: 2px solid black;
+	border-radius: 5px;
+	display: inline-block;
+    position: relative;
+    bottom: 0;
+	
+}
+
+#one {
+	background-color: #FF0000;
+}
+
+#two {
+	background-color: #0000FF;
+}
+
+#three {
+	background-color: #FFD700;
+}
+
+#four {
+	background-color: #308014;
+}

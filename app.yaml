@@ -1,4 +1,4 @@
-application: gae-smartninja-boilerplate  # change this name/id
+application: analog-subset-149518  # change this name/id
 version: 1
 runtime: python27
 api_version: 1
@@ -9,8 +9,12 @@ handlers:
   static_files: favicon.ico
   upload: favicon\.ico
 
-- url: .*
+- url: /static
+  static_dir: templates
+
+- url: /.*
   script: main.app
+
 
 libraries:
 - name: webapp2
